@@ -11,6 +11,7 @@ target 'Swapi People' do
   pod 'Resolver'
   pod 'R.swift'
   pod 'Atributika'
+  pod 'AsyncSwift'
   pod 'Refresher_Swift'
 
 end

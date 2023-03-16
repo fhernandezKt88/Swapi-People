@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wzr-Nn-6Bv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jEm-Hf-d2n">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -9,25 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--LoadingVC-->
-        <scene sceneID="OXK-9O-KqN">
-            <objects>
-                <viewController storyboardIdentifier="LoadingVC" id="Wzr-Nn-6Bv" customClass="LoadingVC" customModule="Swapi_People" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="CQA-uc-BWa">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="M7E-wU-uRL"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="K1y-k3-yfO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-766" y="4"/>
-        </scene>
         <!--Peoples-->
         <scene sceneID="LY2-1f-cra">
             <objects>
-                <viewController storyboardIdentifier="PeoplesVC" id="jEm-Hf-d2n" customClass="PeoplesVC" customModule="Swapi_People" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PeoplesView" id="jEm-Hf-d2n" customClass="PeoplesView" customModule="Swapi_People" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PLC-K7-3xZ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,9 +40,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Peoples" largeTitleDisplayMode="always" id="5DK-7v-lNe"/>
                     <connections>
-                        <outlet property="searchBar" destination="SbE-CX-i0h" id="atc-OX-mxz"/>
-                        <outlet property="tvPeople" destination="gbK-Mj-7yf" id="oMB-ZU-WOL"/>
-                        <segue destination="KlP-8d-mx0" kind="show" identifier="ShowPeopleDetails" id="SGV-61-Ggh"/>
+                        <outlet property="searchBar" destination="SbE-CX-i0h" id="xds-3m-Meu"/>
+                        <outlet property="tvPeople" destination="gbK-Mj-7yf" id="sgw-eC-ppw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jY1-NK-TC3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -67,55 +51,55 @@
         <!--People Details-->
         <scene sceneID="dyr-Ht-PQk">
             <objects>
-                <viewController storyboardIdentifier="PeopleDetailsVC" id="KlP-8d-mx0" customClass="PeopleDetailsVC" customModule="Swapi_People" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PeopleDetailsView" id="KlP-8d-mx0" customClass="PeopleDetailsView" customModule="Swapi_People" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5hv-b7-t6x">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="{{ name }}" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EPf-jR-8Ns">
-                                <rect key="frame" x="16" y="129" width="361" height="30"/>
+                                <rect key="frame" x="16" y="144" width="361" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="{{ mass }}" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fxC-Fw-vlf">
-                                <rect key="frame" x="16" y="177" width="138" height="22"/>
+                                <rect key="frame" x="16" y="192" width="138" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="{{ height }}" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cxb-ef-7Ju">
-                                <rect key="frame" x="239" y="176" width="138" height="22"/>
+                                <rect key="frame" x="239" y="191" width="138" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="{{ gender }}" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="bz8-ep-wIh">
-                                <rect key="frame" x="16" y="216" width="138" height="22"/>
+                                <rect key="frame" x="16" y="231" width="138" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="{{ hair_color }}" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="sb3-iz-TE8">
-                                <rect key="frame" x="239" y="216" width="138" height="22"/>
+                                <rect key="frame" x="239" y="231" width="138" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="{{ birth_year }}" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="OvE-jd-pLo">
-                                <rect key="frame" x="16" y="256" width="138" height="22"/>
+                                <rect key="frame" x="16" y="271" width="138" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="{{ eye_color }}" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="s6X-Op-ysu">
-                                <rect key="frame" x="239" y="256" width="138" height="22"/>
+                                <rect key="frame" x="239" y="271" width="138" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
@@ -146,24 +130,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xJn-gz-wWU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2067.93893129771" y="3.5211267605633805"/>
-        </scene>
-        <!--MainNC-->
-        <scene sceneID="3Os-fl-dwl">
-            <objects>
-                <navigationController storyboardIdentifier="MainNC" automaticallyAdjustsScrollViewInsets="NO" id="eOX-LX-zs8" customClass="MainNC" customModule="Swapi_People" customModuleProvider="target" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Oe0-80-sIs">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="jEm-Hf-d2n" kind="relationship" relationship="rootViewController" id="piJ-Er-S27"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Hjx-3u-WHP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="148.85496183206106" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>

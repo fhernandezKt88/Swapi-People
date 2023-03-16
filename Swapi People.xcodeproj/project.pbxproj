@@ -19,11 +19,16 @@
 		F945AF4C29C22B7B007041C6 /* SwapiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF4B29C22B7B007041C6 /* SwapiService.swift */; };
 		F945AF4E29C23187007041C6 /* Swapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF4D29C23187007041C6 /* Swapi.swift */; };
 		F945AF5129C23424007041C6 /* AppDelegate+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF5029C23424007041C6 /* AppDelegate+Injection.swift */; };
-		F945AF5529C2412C007041C6 /* MainNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF5429C2412C007041C6 /* MainNC.swift */; };
-		F945AF5729C2472B007041C6 /* LoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF5629C2472B007041C6 /* LoadingVC.swift */; };
 		F945AF5C29C26739007041C6 /* PeopleTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF5A29C26739007041C6 /* PeopleTVC.swift */; };
 		F945AF5D29C26739007041C6 /* PeopleTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F945AF5B29C26739007041C6 /* PeopleTVC.xib */; };
-		F945AF5F29C27AA9007041C6 /* PeopleDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF5E29C27AA9007041C6 /* PeopleDetailsVC.swift */; };
+		F945AF6429C2A850007041C6 /* PeoplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF6329C2A850007041C6 /* PeoplesView.swift */; };
+		F945AF6629C2A872007041C6 /* PeoplesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF6529C2A872007041C6 /* PeoplesPresenter.swift */; };
+		F945AF6829C2A88A007041C6 /* PeoplesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF6729C2A88A007041C6 /* PeoplesInteractor.swift */; };
+		F945AF6A29C2A8A3007041C6 /* PeoplesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF6929C2A8A3007041C6 /* PeoplesRouter.swift */; };
+		F945AF6D29C2C199007041C6 /* PeopleDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF6C29C2C199007041C6 /* PeopleDetailsView.swift */; };
+		F945AF6F29C2C1B0007041C6 /* PeopleDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF6E29C2C1B0007041C6 /* PeopleDetailsPresenter.swift */; };
+		F945AF7129C2C1C0007041C6 /* PeopleDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF7029C2C1C0007041C6 /* PeopleDetailsInteractor.swift */; };
+		F945AF7329C2C1D0007041C6 /* PeopleDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF7229C2C1D0007041C6 /* PeopleDetailsRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,11 +47,16 @@
 		F945AF4B29C22B7B007041C6 /* SwapiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapiService.swift; sourceTree = "<group>"; };
 		F945AF4D29C23187007041C6 /* Swapi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swapi.swift; sourceTree = "<group>"; };
 		F945AF5029C23424007041C6 /* AppDelegate+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Injection.swift"; sourceTree = "<group>"; };
-		F945AF5429C2412C007041C6 /* MainNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNC.swift; sourceTree = "<group>"; };
-		F945AF5629C2472B007041C6 /* LoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingVC.swift; sourceTree = "<group>"; };
 		F945AF5A29C26739007041C6 /* PeopleTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTVC.swift; sourceTree = "<group>"; };
 		F945AF5B29C26739007041C6 /* PeopleTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleTVC.xib; sourceTree = "<group>"; };
-		F945AF5E29C27AA9007041C6 /* PeopleDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailsVC.swift; sourceTree = "<group>"; };
+		F945AF6329C2A850007041C6 /* PeoplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesView.swift; sourceTree = "<group>"; };
+		F945AF6529C2A872007041C6 /* PeoplesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesPresenter.swift; sourceTree = "<group>"; };
+		F945AF6729C2A88A007041C6 /* PeoplesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesInteractor.swift; sourceTree = "<group>"; };
+		F945AF6929C2A8A3007041C6 /* PeoplesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesRouter.swift; sourceTree = "<group>"; };
+		F945AF6C29C2C199007041C6 /* PeopleDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailsView.swift; sourceTree = "<group>"; };
+		F945AF6E29C2C1B0007041C6 /* PeopleDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailsPresenter.swift; sourceTree = "<group>"; };
+		F945AF7029C2C1C0007041C6 /* PeopleDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailsInteractor.swift; sourceTree = "<group>"; };
+		F945AF7229C2C1D0007041C6 /* PeopleDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailsRouter.swift; sourceTree = "<group>"; };
 		FB004077A03C57016A389FF7 /* Pods-Swapi People.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swapi People.release.xcconfig"; path = "Target Support Files/Pods-Swapi People/Pods-Swapi People.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +101,7 @@
 		F945AF2A29C21EE5007041C6 /* Swapi People */ = {
 			isa = PBXGroup;
 			children = (
+				F945AF6129C2A821007041C6 /* Modules */,
 				F945AF4F29C23406007041C6 /* DI */,
 				F945AF4329C225DD007041C6 /* Infrastructure */,
 				F945AF4029C222EB007041C6 /* Supporting Files */,
@@ -150,10 +161,7 @@
 		F945AF5229C23619007041C6 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F945AF5629C2472B007041C6 /* LoadingVC.swift */,
-				F945AF5429C2412C007041C6 /* MainNC.swift */,
 				F945AF2F29C21EE5007041C6 /* PeoplesVC.swift */,
-				F945AF5E29C27AA9007041C6 /* PeopleDetailsVC.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -190,6 +198,37 @@
 				F945AF5829C26707007041C6 /* TableView Cells */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		F945AF6129C2A821007041C6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F945AF6229C2A82C007041C6 /* Peoples */,
+				F945AF6B29C2C149007041C6 /* People Details */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F945AF6229C2A82C007041C6 /* Peoples */ = {
+			isa = PBXGroup;
+			children = (
+				F945AF6329C2A850007041C6 /* PeoplesView.swift */,
+				F945AF6529C2A872007041C6 /* PeoplesPresenter.swift */,
+				F945AF6729C2A88A007041C6 /* PeoplesInteractor.swift */,
+				F945AF6929C2A8A3007041C6 /* PeoplesRouter.swift */,
+			);
+			path = Peoples;
+			sourceTree = "<group>";
+		};
+		F945AF6B29C2C149007041C6 /* People Details */ = {
+			isa = PBXGroup;
+			children = (
+				F945AF6C29C2C199007041C6 /* PeopleDetailsView.swift */,
+				F945AF6E29C2C1B0007041C6 /* PeopleDetailsPresenter.swift */,
+				F945AF7029C2C1C0007041C6 /* PeopleDetailsInteractor.swift */,
+				F945AF7229C2C1D0007041C6 /* PeopleDetailsRouter.swift */,
+			);
+			path = "People Details";
 			sourceTree = "<group>";
 		};
 		FAB940EC9DFDC432B2A2FE28 /* Pods */ = {
@@ -338,18 +377,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F945AF5F29C27AA9007041C6 /* PeopleDetailsVC.swift in Sources */,
-				F945AF5529C2412C007041C6 /* MainNC.swift in Sources */,
 				F945AF5129C23424007041C6 /* AppDelegate+Injection.swift in Sources */,
+				F945AF6429C2A850007041C6 /* PeoplesView.swift in Sources */,
 				F945AF3029C21EE5007041C6 /* PeoplesVC.swift in Sources */,
 				F945AF4C29C22B7B007041C6 /* SwapiService.swift in Sources */,
+				F945AF7329C2C1D0007041C6 /* PeopleDetailsRouter.swift in Sources */,
 				F945AF5C29C26739007041C6 /* PeopleTVC.swift in Sources */,
+				F945AF6829C2A88A007041C6 /* PeoplesInteractor.swift in Sources */,
+				F945AF7129C2C1C0007041C6 /* PeopleDetailsInteractor.swift in Sources */,
 				F945AF2C29C21EE5007041C6 /* AppDelegate.swift in Sources */,
 				F945AF2E29C21EE5007041C6 /* SceneDelegate.swift in Sources */,
 				F945AF4E29C23187007041C6 /* Swapi.swift in Sources */,
 				F945AF4229C223D9007041C6 /* R.generated.swift in Sources */,
 				F945AF4A29C228F5007041C6 /* QtPeople.swift in Sources */,
-				F945AF5729C2472B007041C6 /* LoadingVC.swift in Sources */,
+				F945AF6629C2A872007041C6 /* PeoplesPresenter.swift in Sources */,
+				F945AF6F29C2C1B0007041C6 /* PeopleDetailsPresenter.swift in Sources */,
+				F945AF6A29C2A8A3007041C6 /* PeoplesRouter.swift in Sources */,
+				F945AF6D29C2C199007041C6 /* PeopleDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

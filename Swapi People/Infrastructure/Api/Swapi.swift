@@ -57,7 +57,7 @@ class Swapi {
     }
 
     /// Search for people with given query
-    public func search(query: String) async throws -> QtPeopleResult? {
+    public func search(query: String) async throws -> [QtPeople] {
         return try await withCheckedThrowingContinuation({ continuation in
             self.swapi.request(.search(query: query)) { result in
                 switch result {
@@ -66,7 +66,7 @@ class Swapi {
 
                         do {
                             let result = try JSONDecoder().decode(QtPeopleResult.self, from: data)
-                            continuation.resume(returning: result)
+                            continuation.resume(returning: result.peoples)
                         } catch {
                             continuation.resume(throwing: error)
                         }

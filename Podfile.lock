@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.6.4)
+  - AsyncSwift (2.0.4)
   - Atributika (4.10.1)
   - Moya (15.0.0):
     - Moya/Core (= 15.0.0)
@@ -11,6 +12,7 @@ PODS:
   - Resolver (1.5.0)
 
 DEPENDENCIES:
+  - AsyncSwift
   - Atributika
   - Moya
   - PinLayout
@@ -21,6 +23,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - AsyncSwift
     - Atributika
     - Moya
     - PinLayout
@@ -30,6 +33,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  AsyncSwift: 65775a7b32e740609b24969ece3de58723b9dc3e
   Atributika: 47e778507cfb3cd2c996278b0285221a62e97d71
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   PinLayout: 0090ccbf29ae69af6ae5a15eaeaf27ed7b2c4d83
@@ -37,6 +41,6 @@ SPEC CHECKSUMS:
   Refresher_Swift: 9650ad987dbfec61032601c6a1fbc43550b422ea
   Resolver: 68984624572763018fd8ec7b8e3e8df0e3b6bba5
 
-PODFILE CHECKSUM: aff137eafa5e13a4470eb09699438a2f6bba2fb9
+PODFILE CHECKSUM: ade65c0fb8fb661246e60fcf659e12e552adda4d
 
 COCOAPODS: 1.11.3

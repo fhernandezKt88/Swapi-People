@@ -1,18 +1,20 @@
 //
-//  PeopleDetailsVC.swift
+//  PeopleDetailsView.swift
 //  Swapi People
 //
 //  Created by Fidel Hernández Salazar on 3/15/23.
 //
 
+import Foundation
 import UIKit
+import Async
 import PinLayout
 import Atributika
 
 /*
  * This view controller show people details.
  */
-class PeopleDetailsVC: UIViewController {
+class PeopleDetailsView: UIViewController {
 
     @IBOutlet weak var lbName: UILabel!
     @IBOutlet weak var lbMass: UILabel!
@@ -22,15 +24,15 @@ class PeopleDetailsVC: UIViewController {
     @IBOutlet weak var lbBirthYear: UILabel!
     @IBOutlet weak var lbEyeColor: UILabel!
 
-    var people: QtPeople!
+    var presenter: PeopleDetailsPresenter!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.configureUI()
+        self.configureUI(people: self.presenter.model)
     }
 
-    func configureUI() {
+    func configureUI(people: QtPeople) {
         let small = Style("sm").font(.boldSystemFont(ofSize: 10)).foregroundColor(.lightGray)
 
         self.lbName.text = people.name
@@ -59,9 +61,9 @@ class PeopleDetailsVC: UIViewController {
         lbHairColor.pin.below(of: lbHeight, aligned: .right).marginTop(10)
         lbEyeColor.pin.below(of: lbHairColor, aligned: .right).marginTop(10)
     }
-    
+
     @IBAction func actBack(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
+        self.presenter.router.pop(controller: self)
     }
 
 }

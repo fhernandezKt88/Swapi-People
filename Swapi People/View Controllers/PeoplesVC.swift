@@ -82,7 +82,7 @@ class PeoplesVC: UIViewController {
         Task {
             do {
                 if query != "" {
-                    self.peoples = try await self.swapi.search(query: query)?.peoples ?? []
+                    self.peoples = try await self.swapi.search(query: query)
                 } else {
                     self.peoples.removeAll()
                     self.currentPage = 1
@@ -92,18 +92,6 @@ class PeoplesVC: UIViewController {
                 // TODO: Show alert or something here
                 print(error.localizedDescription)
             }
-        }
-    }
-
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-
-        if let typedInfo = R.segue.peoplesVC.showPeopleDetails(segue: segue) {
-            let indexPath = sender as! IndexPath
-
-            typedInfo.destination.people = self.peoples[indexPath.row]
         }
     }
 
@@ -148,7 +136,7 @@ extension PeoplesVC: UITableViewDataSource {
 extension PeoplesVC: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: R.segue.peoplesVC.showPeopleDetails, sender: indexPath)
+        //performSegue(withIdentifier: R.segue.peoplesVC.showPeopleDetails, sender: indexPath)
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
