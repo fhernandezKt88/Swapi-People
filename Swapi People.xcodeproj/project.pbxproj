@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFD3BA4A76C3BEDF39AFACED /* Pods_Swapi_People.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B5D5D5DAFE44D2CD883AEF /* Pods_Swapi_People.framework */; };
 		F945AF2C29C21EE5007041C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF2B29C21EE5007041C6 /* AppDelegate.swift */; };
 		F945AF2E29C21EE5007041C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF2D29C21EE5007041C6 /* SceneDelegate.swift */; };
-		F945AF3029C21EE5007041C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF2F29C21EE5007041C6 /* ViewController.swift */; };
+		F945AF3029C21EE5007041C6 /* PeoplesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF2F29C21EE5007041C6 /* PeoplesVC.swift */; };
 		F945AF3329C21EE5007041C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F945AF3129C21EE5007041C6 /* Main.storyboard */; };
 		F945AF3529C21EE8007041C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F945AF3429C21EE8007041C6 /* Assets.xcassets */; };
 		F945AF3829C21EE8007041C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F945AF3629C21EE8007041C6 /* LaunchScreen.storyboard */; };
+		F945AF4229C223D9007041C6 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF4129C223D9007041C6 /* R.generated.swift */; };
+		F945AF4A29C228F5007041C6 /* QtPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF4929C228F5007041C6 /* QtPeople.swift */; };
+		F945AF4C29C22B7B007041C6 /* SwapiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF4B29C22B7B007041C6 /* SwapiService.swift */; };
+		F945AF4E29C23187007041C6 /* Swapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF4D29C23187007041C6 /* Swapi.swift */; };
+		F945AF5129C23424007041C6 /* AppDelegate+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF5029C23424007041C6 /* AppDelegate+Injection.swift */; };
+		F945AF5529C2412C007041C6 /* MainNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF5429C2412C007041C6 /* MainNC.swift */; };
+		F945AF5729C2472B007041C6 /* LoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF5629C2472B007041C6 /* LoadingVC.swift */; };
+		F945AF5C29C26739007041C6 /* PeopleTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF5A29C26739007041C6 /* PeopleTVC.swift */; };
+		F945AF5D29C26739007041C6 /* PeopleTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F945AF5B29C26739007041C6 /* PeopleTVC.xib */; };
+		F945AF5F29C27AA9007041C6 /* PeopleDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945AF5E29C27AA9007041C6 /* PeopleDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1B5D5D5DAFE44D2CD883AEF /* Pods_Swapi_People.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swapi_People.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6074E0C15939B30FA9D389 /* Pods-Swapi People.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swapi People.debug.xcconfig"; path = "Target Support Files/Pods-Swapi People/Pods-Swapi People.debug.xcconfig"; sourceTree = "<group>"; };
 		F945AF2829C21EE5007041C6 /* Swapi People.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swapi People.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F945AF2B29C21EE5007041C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F945AF2D29C21EE5007041C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F945AF2F29C21EE5007041C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F945AF2F29C21EE5007041C6 /* PeoplesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesVC.swift; sourceTree = "<group>"; };
 		F945AF3229C21EE5007041C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F945AF3429C21EE8007041C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F945AF3729C21EE8007041C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F945AF3929C21EE8007041C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F945AF4129C223D9007041C6 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		F945AF4929C228F5007041C6 /* QtPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QtPeople.swift; sourceTree = "<group>"; };
+		F945AF4B29C22B7B007041C6 /* SwapiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapiService.swift; sourceTree = "<group>"; };
+		F945AF4D29C23187007041C6 /* Swapi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swapi.swift; sourceTree = "<group>"; };
+		F945AF5029C23424007041C6 /* AppDelegate+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Injection.swift"; sourceTree = "<group>"; };
+		F945AF5429C2412C007041C6 /* MainNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNC.swift; sourceTree = "<group>"; };
+		F945AF5629C2472B007041C6 /* LoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingVC.swift; sourceTree = "<group>"; };
+		F945AF5A29C26739007041C6 /* PeopleTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTVC.swift; sourceTree = "<group>"; };
+		F945AF5B29C26739007041C6 /* PeopleTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleTVC.xib; sourceTree = "<group>"; };
+		F945AF5E29C27AA9007041C6 /* PeopleDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailsVC.swift; sourceTree = "<group>"; };
+		FB004077A03C57016A389FF7 /* Pods-Swapi People.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swapi People.release.xcconfig"; path = "Target Support Files/Pods-Swapi People/Pods-Swapi People.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD3BA4A76C3BEDF39AFACED /* Pods_Swapi_People.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0AAB8FE22277850698D3A5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1B5D5D5DAFE44D2CD883AEF /* Pods_Swapi_People.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F945AF1F29C21EE5007041C6 = {
 			isa = PBXGroup;
 			children = (
 				F945AF2A29C21EE5007041C6 /* Swapi People */,
 				F945AF2929C21EE5007041C6 /* Products */,
+				FAB940EC9DFDC432B2A2FE28 /* Pods */,
+				B0AAB8FE22277850698D3A5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,114 @@
 		F945AF2A29C21EE5007041C6 /* Swapi People */ = {
 			isa = PBXGroup;
 			children = (
+				F945AF4F29C23406007041C6 /* DI */,
+				F945AF4329C225DD007041C6 /* Infrastructure */,
+				F945AF4029C222EB007041C6 /* Supporting Files */,
+				F945AF6029C284D5007041C6 /* Cells */,
+				F945AF5229C23619007041C6 /* View Controllers */,
+				F945AF5329C23628007041C6 /* Storyboards */,
 				F945AF2B29C21EE5007041C6 /* AppDelegate.swift */,
 				F945AF2D29C21EE5007041C6 /* SceneDelegate.swift */,
-				F945AF2F29C21EE5007041C6 /* ViewController.swift */,
-				F945AF3129C21EE5007041C6 /* Main.storyboard */,
 				F945AF3429C21EE8007041C6 /* Assets.xcassets */,
-				F945AF3629C21EE8007041C6 /* LaunchScreen.storyboard */,
 				F945AF3929C21EE8007041C6 /* Info.plist */,
 			);
 			path = "Swapi People";
+			sourceTree = "<group>";
+		};
+		F945AF4029C222EB007041C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F945AF4129C223D9007041C6 /* R.generated.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F945AF4329C225DD007041C6 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				F945AF4429C22604007041C6 /* Api */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		F945AF4429C22604007041C6 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				F945AF4829C228D8007041C6 /* QuickType */,
+				F945AF4B29C22B7B007041C6 /* SwapiService.swift */,
+				F945AF4D29C23187007041C6 /* Swapi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		F945AF4829C228D8007041C6 /* QuickType */ = {
+			isa = PBXGroup;
+			children = (
+				F945AF4929C228F5007041C6 /* QtPeople.swift */,
+			);
+			path = QuickType;
+			sourceTree = "<group>";
+		};
+		F945AF4F29C23406007041C6 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				F945AF5029C23424007041C6 /* AppDelegate+Injection.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		F945AF5229C23619007041C6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F945AF5629C2472B007041C6 /* LoadingVC.swift */,
+				F945AF5429C2412C007041C6 /* MainNC.swift */,
+				F945AF2F29C21EE5007041C6 /* PeoplesVC.swift */,
+				F945AF5E29C27AA9007041C6 /* PeopleDetailsVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F945AF5329C23628007041C6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F945AF3129C21EE5007041C6 /* Main.storyboard */,
+				F945AF3629C21EE8007041C6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F945AF5829C26707007041C6 /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F945AF5929C26717007041C6 /* PeopleTVC */,
+			);
+			path = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		F945AF5929C26717007041C6 /* PeopleTVC */ = {
+			isa = PBXGroup;
+			children = (
+				F945AF5A29C26739007041C6 /* PeopleTVC.swift */,
+				F945AF5B29C26739007041C6 /* PeopleTVC.xib */,
+			);
+			path = PeopleTVC;
+			sourceTree = "<group>";
+		};
+		F945AF6029C284D5007041C6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F945AF5829C26707007041C6 /* TableView Cells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FAB940EC9DFDC432B2A2FE28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA6074E0C15939B30FA9D389 /* Pods-Swapi People.debug.xcconfig */,
+				FB004077A03C57016A389FF7 /* Pods-Swapi People.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F945AF3C29C21EE8007041C6 /* Build configuration list for PBXNativeTarget "Swapi People" */;
 			buildPhases = (
+				6EFCF304CF40A82FE3DFA569 /* [CP] Check Pods Manifest.lock */,
+				F945AF3F29C222B4007041C6 /* R.swift */,
 				F945AF2429C21EE5007041C6 /* Sources */,
 				F945AF2529C21EE5007041C6 /* Frameworks */,
 				F945AF2629C21EE5007041C6 /* Resources */,
+				FAF7242A85AAD2EFE23E1E87 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F945AF5D29C26739007041C6 /* PeopleTVC.xib in Resources */,
 				F945AF3829C21EE8007041C6 /* LaunchScreen.storyboard in Resources */,
 				F945AF3529C21EE8007041C6 /* Assets.xcassets in Resources */,
 				F945AF3329C21EE5007041C6 /* Main.storyboard in Resources */,
@@ -133,14 +271,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6EFCF304CF40A82FE3DFA569 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swapi People-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F945AF3F29C222B4007041C6 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$SRCROOT/$PRODUCT_NAME/Supporting Files/R.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/$PRODUCT_NAME/Supporting Files/R.generated.swift\"\n";
+		};
+		FAF7242A85AAD2EFE23E1E87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swapi People/Pods-Swapi People-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swapi People/Pods-Swapi People-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swapi People/Pods-Swapi People-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F945AF2429C21EE5007041C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F945AF3029C21EE5007041C6 /* ViewController.swift in Sources */,
+				F945AF5F29C27AA9007041C6 /* PeopleDetailsVC.swift in Sources */,
+				F945AF5529C2412C007041C6 /* MainNC.swift in Sources */,
+				F945AF5129C23424007041C6 /* AppDelegate+Injection.swift in Sources */,
+				F945AF3029C21EE5007041C6 /* PeoplesVC.swift in Sources */,
+				F945AF4C29C22B7B007041C6 /* SwapiService.swift in Sources */,
+				F945AF5C29C26739007041C6 /* PeopleTVC.swift in Sources */,
 				F945AF2C29C21EE5007041C6 /* AppDelegate.swift in Sources */,
 				F945AF2E29C21EE5007041C6 /* SceneDelegate.swift in Sources */,
+				F945AF4E29C23187007041C6 /* Swapi.swift in Sources */,
+				F945AF4229C223D9007041C6 /* R.generated.swift in Sources */,
+				F945AF4A29C228F5007041C6 /* QtPeople.swift in Sources */,
+				F945AF5729C2472B007041C6 /* LoadingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +491,7 @@
 		};
 		F945AF3D29C21EE8007041C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA6074E0C15939B30FA9D389 /* Pods-Swapi People.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +520,7 @@
 		};
 		F945AF3E29C21EE8007041C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB004077A03C57016A389FF7 /* Pods-Swapi People.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

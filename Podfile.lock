@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (5.6.4)
+  - Atributika (4.10.1)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - PinLayout (1.10.3)
+  - R.swift (7.3.0)
+  - Refresher_Swift (1.1)
+  - Resolver (1.5.0)
+
+DEPENDENCIES:
+  - Atributika
+  - Moya
+  - PinLayout
+  - R.swift
+  - Refresher_Swift
+  - Resolver
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Atributika
+    - Moya
+    - PinLayout
+    - R.swift
+    - Refresher_Swift
+    - Resolver
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  Atributika: 47e778507cfb3cd2c996278b0285221a62e97d71
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  PinLayout: 0090ccbf29ae69af6ae5a15eaeaf27ed7b2c4d83
+  R.swift: cef1c530541cb49412752721797f10dae6b32d11
+  Refresher_Swift: 9650ad987dbfec61032601c6a1fbc43550b422ea
+  Resolver: 68984624572763018fd8ec7b8e3e8df0e3b6bba5
+
+PODFILE CHECKSUM: aff137eafa5e13a4470eb09699438a2f6bba2fb9
+
+COCOAPODS: 1.11.3
